@@ -1,0 +1,166 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{D9D6E242-F8AF-46E4-B9FD-80ECBC20BA3E}</UniqueIdentifier>
+      <Extensions>qrc;*</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="Generated Files">
+      <UniqueIdentifier>{71ED8ED8-ACB9-4CE9-BBE1-E00B30144E11}</UniqueIdentifier>
+      <Extensions>moc;h;cpp</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="Generated Files\Debug">
+      <UniqueIdentifier>{0e151389-efdb-455a-8002-a5b1d63db409}</UniqueIdentifier>
+      <Extensions>cpp;moc</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="Generated Files\Release">
+      <UniqueIdentifier>{69a3755a-24d8-47d4-a966-15506ce30a40}</UniqueIdentifier>
+      <Extensions>cpp;moc</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="Form Files">
+      <UniqueIdentifier>{99349809-55BA-4b9d-BF79-8FDBB0286EB3}</UniqueIdentifier>
+      <Extensions>ui</Extensions>
+      <ParseFiles>true</ParseFiles>
+    </Filter>
+    <Filter Include="Source">
+      <UniqueIdentifier>{31c13d69-448c-4f87-9a95-93fba612c635}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Pangu">
+      <UniqueIdentifier>{37422fef-e890-412f-b8ed-5e54f3c96f14}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Utils">
+      <UniqueIdentifier>{01f54c27-606b-4366-a59f-1261235051e5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Tracking">
+      <UniqueIdentifier>{9090f9b7-5bc7-4d5a-b834-c8ca476075ab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Tracking\Cpu">
+      <UniqueIdentifier>{5c28b083-8e97-4889-b875-4653809bec32}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Tracking\Gpu">
+      <UniqueIdentifier>{83b2859e-18c8-407d-86fa-744355a68cb4}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="GeneratedFiles\Debug\moc_gui.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_gui.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_controller.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_controller.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="controller.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="gui.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Pangu\pan_protocol_lib.cpp">
+      <Filter>Source\Pangu</Filter>
+    </ClCompile>
+    <ClCompile Include="Pangu\pan_socket_io.cpp">
+      <Filter>Source\Pangu</Filter>
+    </ClCompile>
+    <ClCompile Include="Pangu\pangu_server.cpp">
+      <Filter>Source\Pangu</Filter>
+    </ClCompile>
+    <ClCompile Include="Tracking\Cpu\feature_tracking_cpu.cpp">
+      <Filter>Source\Tracking\Cpu</Filter>
+    </ClCompile>
+    <ClCompile Include="Tracking\feature_tracking.cpp">
+      <Filter>Source\Tracking</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="gui.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="controller.hpp">
+      <Filter>Source</Filter>
+    </CustomBuild>
+    <CustomBuild Include="gui.h">
+      <Filter>Source</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="GeneratedFiles\ui_gui.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="Pangu\floating_point_structs.h">
+      <Filter>Source\Pangu</Filter>
+    </ClInclude>
+    <ClInclude Include="Pangu\pan_protocol_lib.h">
+      <Filter>Source\Pangu</Filter>
+    </ClInclude>
+    <ClInclude Include="Pangu\pan_socket_io.h">
+      <Filter>Source\Pangu</Filter>
+    </ClInclude>
+    <ClInclude Include="Pangu\pangu_endian.h">
+      <Filter>Source\Pangu</Filter>
+    </ClInclude>
+    <ClInclude Include="Pangu\pangu_server.hpp">
+      <Filter>Source\Pangu</Filter>
+    </ClInclude>
+    <ClInclude Include="Pangu\platform.h">
+      <Filter>Source\Pangu</Filter>
+    </ClInclude>
+    <ClInclude Include="Pangu\socket_stuff.h">
+      <Filter>Source\Pangu</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils\types.hpp">
+      <Filter>Source\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Tracking\Cpu\feature_tracking_cpu.hpp">
+      <Filter>Source\Tracking\Cpu</Filter>
+    </ClInclude>
+    <ClInclude Include="Tracking\Gpu\feature_tracking_gpu.cuh">
+      <Filter>Source\Tracking\Gpu</Filter>
+    </ClInclude>
+    <ClInclude Include="Tracking\Gpu\helper_cuda.h">
+      <Filter>Source\Tracking\Gpu</Filter>
+    </ClInclude>
+    <ClInclude Include="Tracking\Gpu\helper_string.h">
+      <Filter>Source\Tracking\Gpu</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils\colours.hpp">
+      <Filter>Source\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils\utils.hpp">
+      <Filter>Source\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Tracking\feature_tracking.hpp">
+      <Filter>Source\Tracking</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Gui.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <CudaCompile Include="Tracking\Gpu\feature_tracking_gpu.cu">
+      <Filter>Source\Tracking\Gpu</Filter>
+    </CudaCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Resources\moon.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\moon.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
