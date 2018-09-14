@@ -8,5 +8,13 @@ For this comparison, an application was created which receives several series of
 
 The measured results show that the graphical processing unit is significantly faster than the central processing unit at tracking features between images in the scenarios tested.
 
+CPU Implementation:
+[feature_tracking_cpu.hpp](https://github.com/flau/Image-Processing/blob/master/Gui/Tracking/Cpu/feature_tracking_cpu.hpp)
+[feature_tracking_cpu.cpp](https://github.com/flau/Image-Processing/blob/master/Gui/Tracking/Cpu/feature_tracking_cpu.cpp)
+
+CUDA GPU Implementation:
+[feature_tracking_gpu.cuh](https://github.com/flau/Image-Processing/blob/master/Gui/Tracking/Gpu/feature_tracking_gpu.cuh)
+[feature_tracking_gpu.cu](https://github.com/flau/Image-Processing/blob/master/Gui/Tracking/Gpu/feature_tracking_gpu.cu)
+
 ![Image](https://raw.githubusercontent.com/dmconnolly/Image-Processing/d04350b5996cf3658e2905c58b72b7716fb5c8ad/img1.png)
 ![Image](https://raw.githubusercontent.com/dmconnolly/Image-Processing/d04350b5996cf3658e2905c58b72b7716fb5c8ad/img2.png)
